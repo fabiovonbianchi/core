@@ -1,0 +1,25 @@
+{
+  "name": "jeeno/core",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Christian Nastasi",
+      "email": "christian.nastasi@gmail.com"
+    }
+  ],
+  "require": {
+    "doctrine/collections": "^1.4",
+    "symfony/property-access": "^3.2",
+    "symfony/serializer": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jeeno\\Core\\": "src"
+    }
+  },
+  "require-dev": {
+    "phpmetrics/phpmetrics": "^2.4"
+  }
+}
