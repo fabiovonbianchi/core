@@ -21,7 +21,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Jeeno\\Core\\Tests\\": "tests"
+      "Jeeno\\Core\\": "tests"
     }
   },
   "require-dev": {
