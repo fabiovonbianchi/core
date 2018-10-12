@@ -19,7 +19,14 @@
       "Jeeno\\Core\\": "src"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Jeeno\\Core\\Tests\\": "tests"
+    }
+  },
   "require-dev": {
-    "phpmetrics/phpmetrics": "^2.4"
+    "phpmetrics/phpmetrics": "^2.4",
+    "phpunit/phpunit": "^7.4",
+    "mockery/mockery": "^1.2"
   }
 }
